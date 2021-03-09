@@ -1,0 +1,6 @@
+cdp run
+int Gig0/1
+description connect to Gig0/1 of R0
+cdp run
+int Gig0/0
+description connect to Gig1/3 of S0

@@ -1,0 +1,13 @@
+int l0
+ip add 172.20.175.1 255.255.255.255
+no shut
+access-list 10 permit 10.253.190.0 0.0.0.255
+access-list 10 permit 172.31.175.0 0.0.0.15
+line vty 0 4
+access-class 10 in
+ip dns server
+ip domain-lookup
+ip name-server 8.8.8.8
+cdp run
+lldp run
+

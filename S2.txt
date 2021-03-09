@@ -1,0 +1,5 @@
+int l0
+ip add 172.20.175.8 255.255.255.255
+no shut
+cdp run
+lldp run
